@@ -12,7 +12,7 @@ openai.api_version = "2023-07-01-preview"
 queue_en = deque(maxlen=10)
 queue_cn = deque(maxlen=10)
 queues = {##接收消息的频道
-    '1144227770034049065': queue_en,
+    '1140481547355553792': queue_en,
     '1144227746956984493': queue_cn,
 }
 intents = discord.Intents.all()
